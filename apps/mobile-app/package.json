@@ -1,0 +1,14 @@
+{
+  "name": "@regenera/mobile-app",
+  "version": "20.7.2",
+  "private": true,
+  "dependencies": {
+    "@regenera/core": "workspace:*",
+    "@regenera/ui": "workspace:*",
+    "@regenera/utils": "workspace:*",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "lucide-react": "^0.556.0",
+    "framer-motion": "^12.4.7"
+  }
+}

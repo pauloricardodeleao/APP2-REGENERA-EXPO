@@ -1,0 +1,9 @@
+{
+  "name": "Regenera Bank Global Enterprise",
+  "description": "Quantum Core Banking System V20.7.3 - Gold Master Production Build",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "regenera-bank-monorepo",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @regenera/mobile-app dev",
+    "build": "pnpm --filter @regenera/mobile-app build",
+    "test": "pnpm recursive run test",
+    "lint": "pnpm recursive run lint"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3",
+    "turbo": "latest"
+  }
+}

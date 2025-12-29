@@ -1,0 +1,10 @@
+{
+  "name": "@regenera/core",
+  "version": "1.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "private": true,
+  "dependencies": {
+    "decimal.js": "^10.4.3"
+  }
+}

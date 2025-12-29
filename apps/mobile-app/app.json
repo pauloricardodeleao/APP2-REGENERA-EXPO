@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Regenera Bank Global",
+    "slug": "regenera-bank-global",
+    "version": "20.7.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0E17"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.regenera.bank.global",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0E17"
+      },
+      "package": "com.regenera.bank.global",
+      "permissions": ["CAMERA", "RECORD_AUDIO"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "regenera-internal-id"
+      }
+    }
+  }
+}
