@@ -1,7 +1,8 @@
+
 /*
 ═══════════════════════════════════════════════════════════════════════════════
   REGENERA BANK - CORE TRANSACTION SERVICE
-  Module: Account & Ledger
+  Module: Main App Orchestrator
    
   Developer: Don Paulo Ricardo
   CEO: Raphaela Cervesky
@@ -84,9 +85,9 @@ export default function App() {
       <div className="w-full max-w-md min-h-screen md:h-[852px] bg-black md:rounded-[3rem] shadow-2xl relative overflow-hidden md:border-[8px] md:border-[#1a1a1a]">
         
         {/* Dynamic Island (Mobile Look) */}
-        <div className="hidden md:block absolute top-2 left-1/2 -translate-x-1/2 w-28 h-7 bg-black rounded-full z-50 pointer-events-none border border-gray-900" />
+        <div className="hidden md:block absolute top-2 left-1/2 -translate-x-1/2 w-28 h-7 bg-black rounded-full z-[101] pointer-events-none border border-gray-900" />
 
-        <div className="h-full w-full overflow-y-auto overflow-x-hidden no-scrollbar">
+        <div className={`h-full w-full overflow-y-auto overflow-x-hidden no-scrollbar transition-all duration-300 ${showNav ? 'pb-28' : 'pb-0'}`}>
             {currentScreen === 'splash' && <SplashScreen onFinish={() => navigate('login')} />}
             
             {currentScreen === 'login' && (
